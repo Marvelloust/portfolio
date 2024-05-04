@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.26c4403d.css",
-    "main.js": "/static/js/main.819b273c.js",
-    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
-    "static/media/projetimg5.png": "/static/media/projetimg5.38459d4ea345f23b019a.png",
-    "static/media/projetimg6.png": "/static/media/projetimg6.d56df5a8cf89a1043dbe.png",
-    "static/media/projetimg4.jpeg": "/static/media/projetimg4.874c0745c1d111b76780.jpeg",
-    "static/media/projetimg2.jpeg": "/static/media/projetimg2.f818309fff7d6a0740d1.jpeg",
-    "static/media/projetimg3.jpeg": "/static/media/projetimg3.8c9a5b94ca68f095bc64.jpeg",
-    "static/media/CV.pdf": "/static/media/CV.64a9a61a19c568d565cc.pdf",
-    "static/media/projetimg7.png": "/static/media/projetimg7.d54d752a9fd5766787c3.png",
-    "static/media/blog1.jpg": "/static/media/blog1.7baba68bc0424cb594d4.jpg",
-    "static/media/port6.jpg": "/static/media/port6.b3ef7c84d7e735ea86d8.jpg",
-    "static/media/projetimg1.jpeg": "/static/media/projetimg1.b91fbe57815be051f0a2.jpeg",
-    "static/media/profileimg.jpg": "/static/media/profileimg.cff5e289ab4b43cde57d.jpg",
-    "static/media/port3.jpg": "/static/media/port3.cddca24c1935baa407df.jpg",
-    "static/media/port1.jpg": "/static/media/port1.1a095b25152a6ea3544c.jpg",
-    "static/media/blog3.jpg": "/static/media/blog3.10bb1edcb383aecc4478.jpg",
-    "static/media/blog2.jpg": "/static/media/blog2.c09f26de3d5e8400f5f6.jpg",
-    "index.html": "/index.html",
-    "main.26c4403d.css.map": "/static/css/main.26c4403d.css.map",
-    "main.819b273c.js.map": "/static/js/main.819b273c.js.map",
-    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/Marvelloust/portfolio/static/css/main.26c4403d.css",
+    "main.js": "/Marvelloust/portfolio/static/js/main.90126905.js",
+    "static/js/453.ad6eb26e.chunk.js": "/Marvelloust/portfolio/static/js/453.ad6eb26e.chunk.js",
+    "static/media/projetimg5.png": "/Marvelloust/portfolio/static/media/projetimg5.38459d4ea345f23b019a.png",
+    "static/media/projetimg6.png": "/Marvelloust/portfolio/static/media/projetimg6.d56df5a8cf89a1043dbe.png",
+    "static/media/projetimg4.jpeg": "/Marvelloust/portfolio/static/media/projetimg4.874c0745c1d111b76780.jpeg",
+    "static/media/projetimg2.jpeg": "/Marvelloust/portfolio/static/media/projetimg2.f818309fff7d6a0740d1.jpeg",
+    "static/media/projetimg3.jpeg": "/Marvelloust/portfolio/static/media/projetimg3.8c9a5b94ca68f095bc64.jpeg",
+    "static/media/CV.pdf": "/Marvelloust/portfolio/static/media/CV.64a9a61a19c568d565cc.pdf",
+    "static/media/projetimg7.png": "/Marvelloust/portfolio/static/media/projetimg7.d54d752a9fd5766787c3.png",
+    "static/media/blog1.jpg": "/Marvelloust/portfolio/static/media/blog1.7baba68bc0424cb594d4.jpg",
+    "static/media/port6.jpg": "/Marvelloust/portfolio/static/media/port6.b3ef7c84d7e735ea86d8.jpg",
+    "static/media/projetimg1.jpeg": "/Marvelloust/portfolio/static/media/projetimg1.b91fbe57815be051f0a2.jpeg",
+    "static/media/profileimg.jpg": "/Marvelloust/portfolio/static/media/profileimg.cff5e289ab4b43cde57d.jpg",
+    "static/media/port3.jpg": "/Marvelloust/portfolio/static/media/port3.cddca24c1935baa407df.jpg",
+    "static/media/port1.jpg": "/Marvelloust/portfolio/static/media/port1.1a095b25152a6ea3544c.jpg",
+    "static/media/blog3.jpg": "/Marvelloust/portfolio/static/media/blog3.10bb1edcb383aecc4478.jpg",
+    "static/media/blog2.jpg": "/Marvelloust/portfolio/static/media/blog2.c09f26de3d5e8400f5f6.jpg",
+    "index.html": "/Marvelloust/portfolio/index.html",
+    "main.26c4403d.css.map": "/Marvelloust/portfolio/static/css/main.26c4403d.css.map",
+    "main.90126905.js.map": "/Marvelloust/portfolio/static/js/main.90126905.js.map",
+    "453.ad6eb26e.chunk.js.map": "/Marvelloust/portfolio/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26c4403d.css",
-    "static/js/main.819b273c.js"
+    "static/js/main.90126905.js"
   ]
 }
