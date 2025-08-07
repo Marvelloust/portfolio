@@ -3,44 +3,56 @@ document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".glass-card");
   const progressBars = document.querySelectorAll(".progress-bar .fill");
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Animate Cards
-          cards.forEach((card, index) => {
-            card.style.opacity = "1";
-            card.style.transform = "translateY(0)";
-            card.style.animation = `bounceIn 0.6s ease-out ${
-              index * 0.2
-            }s both`;
-          });
+  // Ensure cards and bars are visible by default on small screens
+  function showSkills() {
+    cards.forEach((card, index) => {
+      card.style.opacity = "1";
+      card.style.transform = "translateY(0)";
+      card.style.animation = `bounceIn 0.6s ease-out ${index * 0.2}s both`;
+    });
+    progressBars.forEach((bar) => {
+      const width = bar.getAttribute("data-width");
+      bar.style.width = width;
+      bar.classList.remove("-translate-x-full", "opacity-0");
+    });
+  }
 
-          // Animate Progress Bars
-          progressBars.forEach((bar) => {
-            const width = bar.getAttribute("data-width");
-            bar.style.width = width;
-            bar.classList.remove("-translate-x-full", "opacity-0");
-          });
-        } else {
-          // Reset animations when section goes out of view
-          cards.forEach((card) => {
-            card.style.opacity = "0";
-            card.style.transform = "translateY(20px)";
-            card.style.animation = "none"; // Reset animation
-          });
+  function hideSkills() {
+    cards.forEach((card) => {
+      card.style.opacity = "0";
+      card.style.transform = "translateY(20px)";
+      card.style.animation = "none";
+    });
+    progressBars.forEach((bar) => {
+      bar.style.width = "0%";
+      bar.classList.add("-translate-x-full", "opacity-0");
+    });
+  }
 
-          progressBars.forEach((bar) => {
-            bar.style.width = "0%";
-            bar.classList.add("-translate-x-full", "opacity-0");
+  // Only use IntersectionObserver on md and up
+  function handleSkillsVisibility() {
+    if (window.innerWidth < 768) {
+      showSkills();
+    } else {
+      hideSkills();
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              showSkills();
+            } else {
+              hideSkills();
+            }
           });
-        }
-      });
-    },
-    { threshold: 0.3 } // Triggers when 30% of the section is visible
-  );
+        },
+        { threshold: 0.3 }
+      );
+      observer.observe(skillsSection);
+    }
+  }
 
-  observer.observe(skillsSection);
+  handleSkillsVisibility();
+  window.addEventListener('resize', handleSkillsVisibility);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
