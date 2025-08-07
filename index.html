@@ -338,7 +338,7 @@
                     </h2>
 
                     <!-- Skills Grid -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-7xl mx-auto">
 
                         <!-- Skill Card -->
                         <div class="glass-card p-6 skill-card">
@@ -456,40 +456,10 @@
 
                     </div>
 
-                    <!-- JavaScript for handling the view more functionality -->
-                    <script>
-                        const cards = document.querySelectorAll('.skill-card');
-                        const buttons = document.querySelectorAll('.view-more-btn');
-
-                        buttons.forEach((button, index) => {
-                            button.addEventListener('click', () => {
-                                const card = cards[index];
-                                const ul = card.querySelector('ul');
-                                const isExpanded = ul.classList.contains('hidden');
-
-                                // Close all other cards
-                                cards.forEach((otherCard, i) => {
-                                    if (i !== index) {
-                                        const otherUl = otherCard.querySelector('ul');
-                                        otherUl.classList.add('hidden');
-                                        otherCard.classList.remove('expanded');
-                                    }
-                                });
-
-                                // Toggle the selected card's details and expand vertically
-                                if (isExpanded) {
-                                    ul.classList.remove('hidden');
-                                    card.classList.add('expanded'); // Add class to expand vertically
-                                } else {
-                                    ul.classList.add('hidden');
-                                    card.classList.remove('expanded'); // Remove the expanded class
-                                }
-                            });
-                        });
-                    </script>
+                    <!-- JavaScript for handling the view more functionality is now placed before </body> for better compatibility on all screens. -->
 
                     <!-- Technical Skills Progress Bars -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto mt-12">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 max-w-7xl mx-auto mt-8">
                         <div class="progress-bar">
                             <span class="font-semibold text-gray-800">HTML & CSS</span>
                             <div class="bar bg-gray-300 rounded-full h-5 overflow-hidden shadow-inner">
@@ -837,6 +807,37 @@
     <!-- Add this inside the <head> tag -->
     <script src="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/lucide.min.js"></script>
     <script src="./js/index.js"></script>
+
+    <!-- Skill Card Toggle Script: Ensures functionality on all screen sizes -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cards = document.querySelectorAll('.skill-card');
+            const buttons = document.querySelectorAll('.view-more-btn');
+            buttons.forEach((button, index) => {
+                button.addEventListener('click', () => {
+                    const card = cards[index];
+                    const ul = card.querySelector('ul');
+                    const isExpanded = ul.classList.contains('hidden');
+                    // Close all other cards
+                    cards.forEach((otherCard, i) => {
+                        if (i !== index) {
+                            const otherUl = otherCard.querySelector('ul');
+                            otherUl.classList.add('hidden');
+                            otherCard.classList.remove('expanded');
+                        }
+                    });
+                    // Toggle the selected card's details and expand vertically
+                    if (isExpanded) {
+                        ul.classList.remove('hidden');
+                        card.classList.add('expanded');
+                    } else {
+                        ul.classList.add('hidden');
+                        card.classList.remove('expanded');
+                    }
+                });
+            });
+        });
+    </script>
     <script>
         lucide.createIcons();
 
