@@ -76,7 +76,7 @@
       <header class="site-header">
         <a class="mo-mark route-link" data-route="/" href="${routePath("/")}">
           <span class="mo-mark__bracket">[</span><span>MO</span><span class="mo-mark__bracket">]</span><i></i>
-          <span class="sr-only">Marvellous O. home</span>
+          <span class="sr-only">Marvellous O. Home</span>
         </a>
         <nav class="site-nav" aria-label="Primary">
           ${nav.map(([key, route, label]) => `<a ${active === key ? 'aria-current="page"' : ""} class="route-link" data-route="${route}" href="${routePath(route)}"><span>${label}</span><i></i></a>`).join("")}
