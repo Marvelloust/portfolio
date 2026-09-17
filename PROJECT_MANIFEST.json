@@ -1,0 +1,635 @@
+{
+  "swiftslot": {
+    "record": "BR–014",
+    "title": "SwiftSlot",
+    "label": "Booking system / Full-stack",
+    "source_folder": "assets/projects/swiftslot",
+    "images": [
+      "sl1.png",
+      "sl2.png",
+      "sl3.png",
+      "sl4.png",
+      "sl5.png",
+      "sl6.png"
+    ],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "MySQL"
+    ],
+    "note": "Technology is documented from the verified SwiftSlot engineering record used in the portfolio brief.",
+    "repository": "https://github.com/Marvelloust/swiftslot",
+    "flagship": true,
+    "ownership_type": "PERSONAL BUILD",
+    "authorship_scene": "booking integrity",
+    "source_verified_2026_09_07": true
+  },
+  "css-gallery": {
+    "record": "BR–015",
+    "title": "CSS Gallery",
+    "label": "CSS art / Community interface",
+    "source_folder": "assets/projects/css-gallery",
+    "images": [
+      "home1.png",
+      "home2.png",
+      "home3.png",
+      "home4.png",
+      "home5.png",
+      "gallery1.png",
+      "gallery2.png",
+      "artists1.png",
+      "artist2.png",
+      "challenges1.png",
+      "challenges2.png",
+      "learn1.png",
+      "learn2.png",
+      "learn3.png",
+      "learn4.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/css_canvas_dm",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "orange-stores": {
+    "record": "BR–016",
+    "title": "Orange Stores",
+    "label": "E-commerce / Admin system",
+    "source_folder": "assets/projects/orange-stores",
+    "images": [
+      "os1.png",
+      "os2.png",
+      "os3.png",
+      "os4.png",
+      "os5.png",
+      "os6.png",
+      "os7.png",
+      "os8.png",
+      "os9.png",
+      "os10.png",
+      "os11.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/orange_store",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "enjemawire": {
+    "record": "BR–017",
+    "title": "EnjemaWire",
+    "label": "Editorial / News platform",
+    "source_folder": "assets/projects/enjemawire",
+    "images": [
+      "ew1.png",
+      "ew2.png",
+      "ew3.png",
+      "ew4.png",
+      "ew5.png",
+      "ew6.png",
+      "ew7.png",
+      "ew8.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "cardealer": {
+    "record": "BR–018",
+    "title": "CarDealer",
+    "label": "Automotive commerce / Marketing",
+    "source_folder": "assets/projects/cardealer",
+    "images": [
+      "clp1.png",
+      "clp2.png",
+      "clp3.png",
+      "clp4.png",
+      "clp5.png",
+      "clp6.png",
+      "clpa1.png",
+      "clpa2.png",
+      "clpa3.png",
+      "clpa4.png",
+      "clpa5.png",
+      "clpa6.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "marvyfash": {
+    "record": "BR–019",
+    "title": "Marvyfash",
+    "label": "Fashion commerce interface",
+    "source_folder": "assets/projects/marvyfash",
+    "images": [
+      "p3_01.png",
+      "p3_02.png",
+      "p3_03.png",
+      "p3_04.png",
+      "p3_05.png",
+      "p3_06.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/Glamgrid_E",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "mygame": {
+    "record": "BR–020",
+    "title": "MyGame",
+    "label": "Gaming / Social mobile interface",
+    "source_folder": "assets/projects/mygame",
+    "images": [
+      "p1_01.png",
+      "p1_02.png",
+      "p1_03.png",
+      "p1_04.png",
+      "p1_05.png",
+      "p1_06.png",
+      "p1_07.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/GameApp_Adam",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "p2p-utility": {
+    "record": "BR–021",
+    "title": "P2P Utility App",
+    "label": "Mobile payments / Utility flows",
+    "source_folder": "assets/projects/p2p-utility",
+    "images": [
+      "p2p1.png",
+      "p2p2.png",
+      "p2p3.png",
+      "p2p4.png",
+      "p2p5.png",
+      "p2p6.png",
+      "p2p7.png",
+      "p2p8.png",
+      "p2p9.png",
+      "p2p10.png",
+      "p2p11.png",
+      "p2p12.png",
+      "p2p13.png",
+      "p2p14.png",
+      "p2p15.png",
+      "p2p16.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/p2p_MH",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "file-console": {
+    "record": "BR–022",
+    "title": "File Operations Console",
+    "label": "File / case management dashboard",
+    "source_folder": "assets/projects/file-console",
+    "images": [
+      "p2_01.png",
+      "p2_02.png",
+      "p2_03.png",
+      "p2_04.png",
+      "p2_05.png",
+      "p2_06.png"
+    ],
+    "technology": [],
+    "note": "Technology omitted when it was not established in the supplied record.",
+    "repository": "https://github.com/Marvelloust/CaseVault_001",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "profix-desk": {
+    "record": "BR–002",
+    "title": "ProFix Desk",
+    "label": "Repair operations SaaS",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "React",
+      "Node.js",
+      "APIs"
+    ],
+    "note": "Worked on while working with Neegles. Shown as a contribution record, not as an independently owned personal project.",
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "footera": {
+    "record": null,
+    "title": "Footera",
+    "label": "WordPress / e-commerce-oriented website",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "WordPress"
+    ],
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "clickgrowth": {
+    "record": null,
+    "title": "Clickgrowth",
+    "label": "WordPress website",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "WordPress"
+    ],
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "rebco": {
+    "record": null,
+    "title": "REBCo",
+    "label": "WordPress website",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "WordPress"
+    ],
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "kescreative": {
+    "record": null,
+    "title": "Kescreative",
+    "label": "WordPress website",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "WordPress"
+    ],
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "barista-buddy": {
+    "record": null,
+    "title": "Barista Buddy",
+    "label": "WordPress website",
+    "source_folder": null,
+    "images": [],
+    "technology": [
+      "WordPress"
+    ],
+    "ownership": "Neegles team/company project — contribution record",
+    "standalone_case_study": false,
+    "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
+    "flagship": false,
+    "ownership_type": "TEAM CONTRIBUTION"
+  },
+  "korago": {
+    "record": "BR–001",
+    "title": "KoraGo",
+    "label": "On-demand marketplace / Commerce",
+    "source_folder": "assets/projects/korago",
+    "images": [
+      "korago-01.webp",
+      "korago-02.webp",
+      "korago-03.webp",
+      "korago-04.webp",
+      "korago-05.webp"
+    ],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repository": "https://github.com/Marvelloust/Korago",
+    "demo": "https://marvelloust.github.io/Korago/",
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A cinematic Nigeria-focused marketplace concept spanning food, groceries, retail and courier delivery.",
+    "flagship": true,
+    "ownership_type": "PERSONAL BUILD",
+    "authorship_scene": "city route",
+    "source_verified_2026_09_07": true
+  },
+  "relay-copilot": {
+    "record": "BR–002",
+    "title": "Relay",
+    "label": "AI customer support copilot",
+    "source_folder": "assets/projects/relay-copilot",
+    "images": [
+      "relay-copilot-01.webp",
+      "relay-copilot-02.webp",
+      "relay-copilot-03.webp",
+      "relay-copilot-04.webp",
+      "relay-copilot-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "REST",
+      "local persistence"
+    ],
+    "repository": "https://github.com/Marvelloust/Relay-Copilot",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A production-style full-stack support workspace combining ticket operations, customer context, knowledge retrieval and human-reviewed AI drafting.",
+    "flagship": true,
+    "ownership_type": "PERSONAL BUILD",
+    "authorship_scene": "support context",
+    "source_verified_2026_09_07": true
+  },
+  "trace": {
+    "record": "BR–003",
+    "title": "Trace",
+    "label": "Developer incident console",
+    "source_folder": "assets/projects/trace",
+    "images": [
+      "trace-01.webp",
+      "trace-02.webp",
+      "trace-03.webp",
+      "trace-04.webp",
+      "trace-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "WebSocket",
+      "JavaScript"
+    ],
+    "repository": "https://github.com/Marvelloust/Trace",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A real-time developer incident console connecting service health, logs, deployments, incidents and probable-cause guidance.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "ledgerly": {
+    "record": "BR–004",
+    "title": "Ledgerly",
+    "label": "Business operations / Reconciliation",
+    "source_folder": "assets/projects/ledgerly",
+    "images": [
+      "ledgerly-01.webp",
+      "ledgerly-02.webp",
+      "ledgerly-03.webp",
+      "ledgerly-04.webp",
+      "ledgerly-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "CSV workflows"
+    ],
+    "repository": "https://github.com/Marvelloust/ledgerly",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A Nigerian SME operations console focused on invoices, received money, transfers and bank reconciliation.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "fieldnote": {
+    "record": "BR–005",
+    "title": "Fieldnote",
+    "label": "Offline field inspection PWA",
+    "source_folder": "assets/projects/fieldnote",
+    "images": [
+      "fieldnote-01.webp",
+      "fieldnote-02.webp",
+      "fieldnote-03.webp",
+      "fieldnote-04.webp",
+      "fieldnote-05.webp"
+    ],
+    "technology": [
+      "PWA",
+      "Node.js",
+      "JavaScript"
+    ],
+    "repository": "https://github.com/Marvelloust/Fieldnote",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A mobile-first field inspection PWA designed for people working on-site with unreliable or no connectivity.",
+    "flagship": true,
+    "ownership_type": "PERSONAL BUILD",
+    "authorship_scene": "offline synchronization",
+    "source_verified_2026_09_07": true
+  },
+  "bench": {
+    "record": "BR–006",
+    "title": "Bench",
+    "label": "Prompt / model evaluation console",
+    "source_folder": "assets/projects/bench",
+    "images": [
+      "bench-01.webp",
+      "bench-02.webp",
+      "bench-03.webp",
+      "bench-04.webp",
+      "bench-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "SSE"
+    ],
+    "repository": "https://github.com/Marvelloust/BENCH",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "An AI evaluation workspace for comparing prompt and model variants against a fixed test suite.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "clause": {
+    "record": "BR–007",
+    "title": "Clause",
+    "label": "AI document review workspace",
+    "source_folder": "assets/projects/clause",
+    "images": [
+      "clause-01.webp",
+      "clause-02.webp",
+      "clause-03.webp",
+      "clause-04.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "Express",
+      "document parsing"
+    ],
+    "repository": "https://github.com/Marvelloust/Clause-AI",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A document-intelligence workspace that keeps every supported finding connected to the exact source paragraph it came from.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "slot": {
+    "record": "BR–008",
+    "title": "Slot",
+    "label": "Resource scheduling system",
+    "source_folder": "assets/projects/slot",
+    "images": [
+      "slot-01.webp",
+      "slot-02.webp",
+      "slot-03.webp",
+      "slot-04.webp",
+      "slot-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "constraint logic"
+    ],
+    "repository": "https://github.com/Marvelloust/slot",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A resource scheduler for creative studios where bookings reserve bundles of scarce resources rather than a single calendar slot.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "stamp": {
+    "record": "BR–009",
+    "title": "Stamp",
+    "label": "Collaborative approval system",
+    "source_folder": "assets/projects/stamp",
+    "images": [
+      "stamp-01.webp",
+      "stamp-02.webp",
+      "stamp-03.webp",
+      "stamp-04.webp",
+      "stamp-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "workflow state machine"
+    ],
+    "repository": "https://github.com/Marvelloust/Stamp",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A collaborative internal approval workspace with role-based authorization, state transitions, comments, notifications and audit history.",
+    "flagship": true,
+    "ownership_type": "PERSONAL BUILD",
+    "authorship_scene": "approval state machine",
+    "source_verified_2026_09_07": true
+  },
+  "vault": {
+    "record": "BR–010",
+    "title": "Vault",
+    "label": "Secure file sharing",
+    "source_folder": "assets/projects/vault",
+    "images": [
+      "vault-01.webp",
+      "vault-02.webp",
+      "vault-03.webp",
+      "vault-04.webp",
+      "vault-05.webp"
+    ],
+    "technology": [
+      "Node.js",
+      "JavaScript",
+      "signed-link controls"
+    ],
+    "repository": "https://github.com/Marvelloust/VAULT",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A secure file-sharing product built around signed links, expiry, recipient controls, permissions and audit events.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "nexora": {
+    "record": "BR–011",
+    "title": "Nexora",
+    "label": "Travel / marketplace interface",
+    "source_folder": "assets/projects/nexora",
+    "images": [
+      "nexora-01.webp",
+      "nexora-02.webp",
+      "nexora-03.webp",
+      "nexora-04.webp",
+      "nexora-05.webp"
+    ],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repository": "https://github.com/Marvelloust/Nexora",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "An image-led marketplace experience exploring discovery, locations, featured offers, stores, favourites and cart interactions.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "veloza": {
+    "record": "BR–012",
+    "title": "Veloza",
+    "label": "Commerce / grocery interface",
+    "source_folder": "assets/projects/veloza",
+    "images": [
+      "veloza-01.webp",
+      "veloza-02.webp",
+      "veloza-03.webp",
+      "veloza-04.webp",
+      "veloza-05.webp"
+    ],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "repository": "https://github.com/Marvelloust/Veloza",
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A grocery and delivery commerce interface with area selection, product discovery, basket, favourites, account and checkout states.",
+    "flagship": false,
+    "ownership_type": "PERSONAL BUILD"
+  },
+  "figma-todo": {
+    "record": "BR–013",
+    "title": "ToDo Mobile — Figma Concept",
+    "label": "Product design / Mobile UI",
+    "source_folder": "assets/projects/figma-todo",
+    "images": [
+      "figma-todo-01.webp"
+    ],
+    "technology": [
+      "Figma",
+      "UI design",
+      "mobile product thinking"
+    ],
+    "repository": null,
+    "demo": null,
+    "ownership": "Personal portfolio build",
+    "standalone_case_study": true,
+    "note": "A four-screen mobile task-management concept covering splash, registration, login and dashboard states.",
+    "record_type": "Design concept / no code repository supplied",
+    "flagship": false,
+    "ownership_type": "DESIGN RECORD"
+  }
+}
