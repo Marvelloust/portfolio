@@ -216,11 +216,7 @@
     "label": "Repair operations SaaS",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "React",
-      "Node.js",
-      "APIs"
-    ],
+    "technology": ["React", "Node.js", "APIs"],
     "note": "Worked on while working with Neegles. Shown as a contribution record, not as an independently owned personal project.",
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
@@ -233,9 +229,7 @@
     "label": "WordPress / e-commerce-oriented website",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "WordPress"
-    ],
+    "technology": ["WordPress"],
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
     "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
@@ -248,9 +242,7 @@
     "label": "WordPress website",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "WordPress"
-    ],
+    "technology": ["WordPress"],
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
     "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
@@ -263,9 +255,7 @@
     "label": "WordPress website",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "WordPress"
-    ],
+    "technology": ["WordPress"],
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
     "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
@@ -278,9 +268,7 @@
     "label": "WordPress website",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "WordPress"
-    ],
+    "technology": ["WordPress"],
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
     "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
@@ -293,9 +281,7 @@
     "label": "WordPress website",
     "source_folder": null,
     "images": [],
-    "technology": [
-      "WordPress"
-    ],
+    "technology": ["WordPress"],
     "ownership": "Neegles team/company project — contribution record",
     "standalone_case_study": false,
     "note": "Worked on while with Neegles. Listed only as a contribution; no standalone case-study page is presented.",
@@ -314,11 +300,7 @@
       "korago-04.webp",
       "korago-05.webp"
     ],
-    "technology": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "technology": ["HTML", "CSS", "JavaScript"],
     "repository": "https://github.com/Marvelloust/Korago",
     "demo": "https://marvelloust.github.io/Korago/",
     "ownership": "Personal portfolio build",
@@ -341,12 +323,7 @@
       "relay-copilot-04.webp",
       "relay-copilot-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "REST",
-      "local persistence"
-    ],
+    "technology": ["Node.js", "JavaScript", "REST", "local persistence"],
     "repository": "https://github.com/Marvelloust/Relay-Copilot",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -369,11 +346,7 @@
       "trace-04.webp",
       "trace-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "WebSocket",
-      "JavaScript"
-    ],
+    "technology": ["Node.js", "WebSocket", "JavaScript"],
     "repository": "https://github.com/Marvelloust/Trace",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -394,11 +367,7 @@
       "ledgerly-04.webp",
       "ledgerly-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "CSV workflows"
-    ],
+    "technology": ["Node.js", "JavaScript", "CSV workflows"],
     "repository": "https://github.com/Marvelloust/ledgerly",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -419,11 +388,7 @@
       "fieldnote-04.webp",
       "fieldnote-05.webp"
     ],
-    "technology": [
-      "PWA",
-      "Node.js",
-      "JavaScript"
-    ],
+    "technology": ["PWA", "Node.js", "JavaScript"],
     "repository": "https://github.com/Marvelloust/Fieldnote",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -446,11 +411,7 @@
       "bench-04.webp",
       "bench-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "SSE"
-    ],
+    "technology": ["Node.js", "JavaScript", "SSE"],
     "repository": "https://github.com/Marvelloust/BENCH",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -470,11 +431,7 @@
       "clause-03.webp",
       "clause-04.webp"
     ],
-    "technology": [
-      "Node.js",
-      "Express",
-      "document parsing"
-    ],
+    "technology": ["Node.js", "Express", "document parsing"],
     "repository": "https://github.com/Marvelloust/Clause-AI",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -495,11 +452,7 @@
       "slot-04.webp",
       "slot-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "constraint logic"
-    ],
+    "technology": ["Node.js", "JavaScript", "constraint logic"],
     "repository": "https://github.com/Marvelloust/slot",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -520,11 +473,7 @@
       "stamp-04.webp",
       "stamp-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "workflow state machine"
-    ],
+    "technology": ["Node.js", "JavaScript", "workflow state machine"],
     "repository": "https://github.com/Marvelloust/Stamp",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -547,11 +496,7 @@
       "vault-04.webp",
       "vault-05.webp"
     ],
-    "technology": [
-      "Node.js",
-      "JavaScript",
-      "signed-link controls"
-    ],
+    "technology": ["Node.js", "JavaScript", "signed-link controls"],
     "repository": "https://github.com/Marvelloust/VAULT",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -572,11 +517,7 @@
       "nexora-04.webp",
       "nexora-05.webp"
     ],
-    "technology": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "technology": ["HTML", "CSS", "JavaScript"],
     "repository": "https://github.com/Marvelloust/Nexora",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -597,11 +538,7 @@
       "veloza-04.webp",
       "veloza-05.webp"
     ],
-    "technology": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "technology": ["HTML", "CSS", "JavaScript"],
     "repository": "https://github.com/Marvelloust/Veloza",
     "demo": null,
     "ownership": "Personal portfolio build",
@@ -615,14 +552,8 @@
     "title": "ToDo Mobile — Figma Concept",
     "label": "Product design / Mobile UI",
     "source_folder": "assets/projects/figma-todo",
-    "images": [
-      "figma-todo-01.webp"
-    ],
-    "technology": [
-      "Figma",
-      "UI design",
-      "mobile product thinking"
-    ],
+    "images": ["figma-todo-01.webp"],
+    "technology": ["Figma", "UI design", "mobile product thinking"],
     "repository": null,
     "demo": null,
     "ownership": "Personal portfolio build",

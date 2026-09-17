@@ -2,7 +2,7 @@
   "name": "marvellous-o-build-record",
   "version": "14.0.0",
   "private": true,
-  "description": "Marvellous O. Build Record V14 \u2014 competition authorship archive",
+  "description": "Marvellous O. Build Record V14 — competition authorship archive",
   "scripts": {
     "start": "node server.js"
   }

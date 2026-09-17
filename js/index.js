@@ -45,21 +45,21 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           });
         },
-        { threshold: 0.3 }
+        { threshold: 0.3 },
       );
       observer.observe(skillsSection);
     }
   }
 
   handleSkillsVisibility();
-  window.addEventListener('resize', handleSkillsVisibility);
+  window.addEventListener("resize", handleSkillsVisibility);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   const contactSection = document.querySelector("#contact");
   const contactCards = document.querySelectorAll("#contact .glass-contact");
   const formElements = document.querySelectorAll(
-    "#contact input, #contact textarea, #contact button"
+    "#contact input, #contact textarea, #contact button",
   );
 
   const observer = new IntersectionObserver(
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     },
-    { threshold: 0.3 } // Triggers when 30% of the section is visible
+    { threshold: 0.3 }, // Triggers when 30% of the section is visible
   );
 
   observer.observe(contactSection);

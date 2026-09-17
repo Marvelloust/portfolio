@@ -1,98 +1,213 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="A booking system where availability, timezone handling and booking integrity are treated as product rules rather than interface decoration." name="description"/>
-<meta content="#0B0E13" name="theme-color"/>
-<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
-<title>SwiftSlot — Marvellous O. Build Record</title>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('mo-build-theme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
-<link href="../../assets/css/styles.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta
+        content="A booking system where availability, timezone handling and booking integrity are treated as product rules rather than interface decoration."
+        name="description" />
+    <meta content="#0B0E13" name="theme-color" />
+    <link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml" />
+    <title>SwiftSlot — Marvellous O. Build Record</title>
+    <script>try { document.documentElement.dataset.theme = localStorage.getItem('mo-build-theme') || 'dark' } catch (e) { document.documentElement.dataset.theme = 'dark' }</script>
+    <link href="../../assets/css/styles.css" rel="stylesheet" />
 </head>
+
 <body class="case-page case--time" data-active="work" data-project-key="swiftslot" data-root="../../">
-<a class="sr-only" href="#main">Skip to content</a>
-<div data-site-header=""></div>
-<main class="page-main" id="main">
-<div class="case-spine" style="--project-accent:#6FB8FF"></div>
-<section class="case-hero" style="--project-accent:#6FB8FF">
-<div class="container">
-<div class="case-hero__top mono"><span>BR–014 / BUILD DOSSIER</span><span>PRODUCT SYSTEM / IMAGE-BACKED RECORD</span></div><span class="ownership-stamp">[MO] / PERSONAL BUILD</span>
-<div class="case-hero__title">
-<h1>SwiftSlot</h1>
-<div class="case-hero__meta">
-<div><span>TYPE</span><b>Booking system / Full-stack</b></div>
-<div><span>ROLE</span><b>Full-stack development</b></div>
-<div><span>TECH</span><b>React / TypeScript / Node.js / Express / Sequelize / MySQL</b></div>
-<div><span>STATUS</span><b>BUILD ARTIFACTS SUPPLIED</b></div>
-</div>
-</div>
-<div class="case-cover">
-<img alt="SwiftSlot project interface" src="../../assets/projects/swiftslot/sl1.png"/>
-<div class="case-cover__ghost"><img alt="" src="../../assets/projects/swiftslot/sl2.png"/></div>
-<div class="case-cover__stamp">BR–014 / PHYSICAL BUILD ARTIFACT</div>
-</div>
-</div>
-</section>
-<section class="container case-summary">
-<div><div class="kicker">What this record shows</div></div>
-<div>
-<h2>A booking system where availability, timezone handling and booking integrity are treated as product rules rather than interface decoration.</h2>
-<div style="height:34px"></div>
-<div class="case-notes">
-<div class="case-note"><span>PROBLEM</span><p>Booking looks simple until two people can reach the same slot, local time differs from stored time, or a repeated request creates a duplicate reservation.</p></div>
-<div class="case-note"><span>APPROACH</span><p>The build separates what the user sees from the integrity rules underneath: available slots, UTC persistence, Africa/Lagos presentation, unique slot constraints, idempotency and transactional protection.</p></div>
-</div>
-</div>
-<aside class="case-facts">
-<span>ARCHIVE NUMBER</span><b>BR–014</b>
-<span>PROJECT TYPE</span><b>Booking system / Full-stack</b>
-<span>VISUAL EVIDENCE</span><b>6 supplied build views</b>
-<span>RECORD RULE</span><b>No invented outcomes or statistics</b>
-</aside>
-</section><section class="project-signature signature--swiftslot" data-signature-project="swiftslot"><div class="container"><div class="project-signature__label mono">BOOKING INTEGRITY / CONSTRAINT GRAMMAR</div><div class="project-signature__statement"><h2>One slot is a constraint, not a rectangle.</h2><p>The visual language mirrors the engineering problem: requests move toward one canonical time, one protected slot and one committed booking state.</p></div><div class="project-signature__track"><span>01 / REQUEST</span><span>02 / NORMALIZE</span><span>03 / LOCK</span><span>04 / COMMIT</span></div></div></section><section class="flagship-evidence flagship-evidence--time" data-flagship-evidence="time" style="--project-accent:#6FB8FF">
-<div class="flagship-evidence__sticky container"><div class="flagship-evidence__eyebrow mono">[MO] / LIVE SYSTEM STUDY / BOOKING INTEGRITY</div>
-<div class="flagship-evidence__copy"><span>ONE REQUEST CAN RETRY.</span><h2>One slot should still become <em>one booking.</em></h2><p>Scroll the constraint: requests normalize to one canonical time, compete for one protected slot and resolve into one committed state.</p></div>
-<div aria-label="Animated SwiftSlot booking integrity diagram" class="time-lab"><div class="time-lab__rail"><span>09:00</span><span>09:30</span><span>10:00</span><span>10:30</span></div><div class="time-request a" data-evidence-piece="">REQUEST A</div><div class="time-request b" data-evidence-piece="">RETRY A</div><div class="time-request c" data-evidence-piece="">REQUEST B</div><div class="time-slot" data-evidence-piece=""><b>09:30</b><small>UNIQUE SLOT</small></div><div class="time-lock" data-evidence-piece="">[ LOCK ]</div><figure class="time-proof" data-evidence-piece=""><img alt="SwiftSlot availability interface detail" loading="lazy" src="../../assets/projects/swiftslot/sl2.png"/></figure></div>
-<div class="flagship-evidence__readout mono" data-evidence-readout="">REQUEST / 01</div></div></section>
-<section class="artifact-theatre" data-artifact-theatre="" data-kind="time" style="--project-accent:#6FB8FF">
-<div class="artifact-theatre__sticky">
-<div class="artifact-theatre__head"><span>ARTIFACT THEATRE / VERTICAL SCROLL → BUILD INSPECTION</span><span data-theatre-readout="">ARTIFACT 01 / 06</span></div>
-<div class="artifact-stage">
-<figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 1" loading="lazy" src="../../assets/projects/swiftslot/sl1.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 01</figcaption></figure><figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 2" loading="lazy" src="../../assets/projects/swiftslot/sl2.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 02</figcaption></figure><figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 3" loading="lazy" src="../../assets/projects/swiftslot/sl3.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 03</figcaption></figure><figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 4" loading="lazy" src="../../assets/projects/swiftslot/sl4.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 04</figcaption></figure><figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 5" loading="lazy" src="../../assets/projects/swiftslot/sl5.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 05</figcaption></figure><figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 6" loading="lazy" src="../../assets/projects/swiftslot/sl6.png"/><figcaption class="artifact-shot__tag">BR–014 / VIEW 06</figcaption></figure>
-</div>
-</div>
-</section>
-<section class="mechanism" style="--project-accent:#6FB8FF">
-<div class="container mechanism__grid">
-<div class="mechanism__label">
-<div class="kicker">Build mechanism</div>
-<h2>The product has a job beyond the screenshot.</h2>
-<p>This section translates the supplied interface into the sequence of responsibilities visible in the build record.</p>
-</div>
-<div class="mechanism__visual">
-<div class="mechanism-flow">
-<article class="mechanism-step"><span>01</span><div><b>TIME IS DATA</b><p style="font-size:11px;color:var(--muted);margin:10px 0 0">Persist UTC; present the right local time at the edge.</p></div><i></i></article><article class="mechanism-step"><span>02</span><div><b>ONE SLOT</b><p style="font-size:11px;color:var(--muted);margin:10px 0 0">Unique constraints and transactional protection keep a bookable slot from becoming two bookings.</p></div><i></i></article><article class="mechanism-step"><span>03</span><div><b>REPEAT SAFELY</b><p style="font-size:11px;color:var(--muted);margin:10px 0 0">Idempotent handling makes repeated requests predictable instead of destructive.</p></div><i></i></article><article class="mechanism-step"><span>04</span><div><b>OUTPUT</b><p style="font-size:11px;color:var(--muted);margin:10px 0 0">A build record that connects the visible interface to the job the product is trying to do.</p></div><i></i></article>
-</div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="container">
-<div class="notes-head"><div class="kicker">Artifact wall / supplied screens</div><div><h2 class="h2">The interface as <em>evidence.</em></h2><p class="copy">These are the actual project images supplied for the archive. They are shown without fabricated performance claims or fake client outcomes.</p></div></div>
-<div class="artifact-wall">
-<figure><img alt="SwiftSlot supplied project screen 1" loading="lazy" src="../../assets/projects/swiftslot/sl1.png"/></figure><figure><img alt="SwiftSlot supplied project screen 2" loading="lazy" src="../../assets/projects/swiftslot/sl2.png"/></figure><figure><img alt="SwiftSlot supplied project screen 3" loading="lazy" src="../../assets/projects/swiftslot/sl3.png"/></figure><figure><img alt="SwiftSlot supplied project screen 4" loading="lazy" src="../../assets/projects/swiftslot/sl4.png"/></figure><figure><img alt="SwiftSlot supplied project screen 5" loading="lazy" src="../../assets/projects/swiftslot/sl5.png"/></figure><figure><img alt="SwiftSlot supplied project screen 6" loading="lazy" src="../../assets/projects/swiftslot/sl6.png"/></figure>
-</div>
-<a class="next-record route-link" data-accent="#7167FF" data-project-link="" data-route="/work/css-gallery/" data-title="CSS Gallery" href="../../work/css-gallery/index.html" style="--next-accent:#7167FF">
-<span>NEXT RECORD</span><strong>CSS Gallery</strong><i>↗</i>
-</a>
-</div>
-</section>
-</main>
-<div data-site-footer=""></div>
-<script src="../../assets/js/site.js"></script>
-<script src="../../assets/js/ui.js"></script>
-<script src="../../assets/js/motion.js"></script>
+    <a class="sr-only" href="#main">Skip to content</a>
+    <div data-site-header=""></div>
+    <main class="page-main" id="main">
+        <div class="case-spine" style="--project-accent:#6FB8FF"></div>
+        <section class="case-hero" style="--project-accent:#6FB8FF">
+            <div class="container">
+                <div class="case-hero__top mono"><span>BR–014 / BUILD DOSSIER</span><span>PRODUCT SYSTEM / IMAGE-BACKED
+                        RECORD</span></div><span class="ownership-stamp">[MO] / PERSONAL BUILD</span>
+                <div class="case-hero__title">
+                    <h1>SwiftSlot</h1>
+                    <div class="case-hero__meta">
+                        <div><span>TYPE</span><b>Booking system / Full-stack</b></div>
+                        <div><span>ROLE</span><b>Full-stack development</b></div>
+                        <div><span>TECH</span><b>React / TypeScript / Node.js / Express / Sequelize / MySQL</b></div>
+                        <div><span>STATUS</span><b>BUILD ARTIFACTS SUPPLIED</b></div>
+                    </div>
+                </div>
+                <div class="case-cover">
+                    <img alt="SwiftSlot project interface" src="../../assets/projects/swiftslot/sl1.png" />
+                    <div class="case-cover__ghost"><img alt="" src="../../assets/projects/swiftslot/sl2.png" /></div>
+                    <div class="case-cover__stamp">BR–014 / PHYSICAL BUILD ARTIFACT</div>
+                </div>
+            </div>
+        </section>
+        <section class="container case-summary">
+            <div>
+                <div class="kicker">What this record shows</div>
+            </div>
+            <div>
+                <h2>A booking system where availability, timezone handling and booking integrity are treated as product
+                    rules rather than interface decoration.</h2>
+                <div style="height:34px"></div>
+                <div class="case-notes">
+                    <div class="case-note"><span>PROBLEM</span>
+                        <p>Booking looks simple until two people can reach the same slot, local time differs from stored
+                            time, or a repeated request creates a duplicate reservation.</p>
+                    </div>
+                    <div class="case-note"><span>APPROACH</span>
+                        <p>The build separates what the user sees from the integrity rules underneath: available slots,
+                            UTC persistence, Africa/Lagos presentation, unique slot constraints, idempotency and
+                            transactional protection.</p>
+                    </div>
+                </div>
+            </div>
+            <aside class="case-facts">
+                <span>ARCHIVE NUMBER</span><b>BR–014</b>
+                <span>PROJECT TYPE</span><b>Booking system / Full-stack</b>
+                <span>VISUAL EVIDENCE</span><b>6 supplied build views</b>
+                <span>RECORD RULE</span><b>No invented outcomes or statistics</b>
+            </aside>
+        </section>
+        <section class="project-signature signature--swiftslot" data-signature-project="swiftslot">
+            <div class="container">
+                <div class="project-signature__label mono">BOOKING INTEGRITY / CONSTRAINT GRAMMAR</div>
+                <div class="project-signature__statement">
+                    <h2>One slot is a constraint, not a rectangle.</h2>
+                    <p>The visual language mirrors the engineering problem: requests move toward one canonical time, one
+                        protected slot and one committed booking state.</p>
+                </div>
+                <div class="project-signature__track"><span>01 / REQUEST</span><span>02 / NORMALIZE</span><span>03 /
+                        LOCK</span><span>04 / COMMIT</span></div>
+            </div>
+        </section>
+        <section class="flagship-evidence flagship-evidence--time" data-flagship-evidence="time"
+            style="--project-accent:#6FB8FF">
+            <div class="flagship-evidence__sticky container">
+                <div class="flagship-evidence__eyebrow mono">[MO] / LIVE SYSTEM STUDY / BOOKING INTEGRITY</div>
+                <div class="flagship-evidence__copy"><span>ONE REQUEST CAN RETRY.</span>
+                    <h2>One slot should still become <em>one booking.</em></h2>
+                    <p>Scroll the constraint: requests normalize to one canonical time, compete for one protected slot
+                        and resolve into one committed state.</p>
+                </div>
+                <div aria-label="Animated SwiftSlot booking integrity diagram" class="time-lab">
+                    <div class="time-lab__rail"><span>09:00</span><span>09:30</span><span>10:00</span><span>10:30</span>
+                    </div>
+                    <div class="time-request a" data-evidence-piece="">REQUEST A</div>
+                    <div class="time-request b" data-evidence-piece="">RETRY A</div>
+                    <div class="time-request c" data-evidence-piece="">REQUEST B</div>
+                    <div class="time-slot" data-evidence-piece=""><b>09:30</b><small>UNIQUE SLOT</small></div>
+                    <div class="time-lock" data-evidence-piece="">[ LOCK ]</div>
+                    <figure class="time-proof" data-evidence-piece=""><img alt="SwiftSlot availability interface detail"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl2.png" /></figure>
+                </div>
+                <div class="flagship-evidence__readout mono" data-evidence-readout="">REQUEST / 01</div>
+            </div>
+        </section>
+        <section class="artifact-theatre" data-artifact-theatre="" data-kind="time" style="--project-accent:#6FB8FF">
+            <div class="artifact-theatre__sticky">
+                <div class="artifact-theatre__head"><span>ARTIFACT THEATRE / VERTICAL SCROLL → BUILD
+                        INSPECTION</span><span data-theatre-readout="">ARTIFACT 01 / 06</span></div>
+                <div class="artifact-stage">
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 1"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl1.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 01</figcaption>
+                    </figure>
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 2"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl2.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 02</figcaption>
+                    </figure>
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 3"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl3.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 03</figcaption>
+                    </figure>
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 4"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl4.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 04</figcaption>
+                    </figure>
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 5"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl5.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 05</figcaption>
+                    </figure>
+                    <figure class="artifact-shot" style="--project-accent:#6FB8FF"><img alt="SwiftSlot interface view 6"
+                            loading="lazy" src="../../assets/projects/swiftslot/sl6.png" />
+                        <figcaption class="artifact-shot__tag">BR–014 / VIEW 06</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="mechanism" style="--project-accent:#6FB8FF">
+            <div class="container mechanism__grid">
+                <div class="mechanism__label">
+                    <div class="kicker">Build mechanism</div>
+                    <h2>The product has a job beyond the screenshot.</h2>
+                    <p>This section translates the supplied interface into the sequence of responsibilities visible in
+                        the build record.</p>
+                </div>
+                <div class="mechanism__visual">
+                    <div class="mechanism-flow">
+                        <article class="mechanism-step"><span>01</span>
+                            <div><b>TIME IS DATA</b>
+                                <p style="font-size:11px;color:var(--muted);margin:10px 0 0">Persist UTC; present the
+                                    right local time at the edge.</p>
+                            </div><i></i>
+                        </article>
+                        <article class="mechanism-step"><span>02</span>
+                            <div><b>ONE SLOT</b>
+                                <p style="font-size:11px;color:var(--muted);margin:10px 0 0">Unique constraints and
+                                    transactional protection keep a bookable slot from becoming two bookings.</p>
+                            </div><i></i>
+                        </article>
+                        <article class="mechanism-step"><span>03</span>
+                            <div><b>REPEAT SAFELY</b>
+                                <p style="font-size:11px;color:var(--muted);margin:10px 0 0">Idempotent handling makes
+                                    repeated requests predictable instead of destructive.</p>
+                            </div><i></i>
+                        </article>
+                        <article class="mechanism-step"><span>04</span>
+                            <div><b>OUTPUT</b>
+                                <p style="font-size:11px;color:var(--muted);margin:10px 0 0">A build record that
+                                    connects the visible interface to the job the product is trying to do.</p>
+                            </div><i></i>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="notes-head">
+                    <div class="kicker">Artifact wall / supplied screens</div>
+                    <div>
+                        <h2 class="h2">The interface as <em>evidence.</em></h2>
+                        <p class="copy">These are the actual project images supplied for the archive. They are shown
+                            without fabricated performance claims or fake client outcomes.</p>
+                    </div>
+                </div>
+                <div class="artifact-wall">
+                    <figure><img alt="SwiftSlot supplied project screen 1" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl1.png" /></figure>
+                    <figure><img alt="SwiftSlot supplied project screen 2" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl2.png" /></figure>
+                    <figure><img alt="SwiftSlot supplied project screen 3" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl3.png" /></figure>
+                    <figure><img alt="SwiftSlot supplied project screen 4" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl4.png" /></figure>
+                    <figure><img alt="SwiftSlot supplied project screen 5" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl5.png" /></figure>
+                    <figure><img alt="SwiftSlot supplied project screen 6" loading="lazy"
+                            src="../../assets/projects/swiftslot/sl6.png" /></figure>
+                </div>
+                <a class="next-record route-link" data-accent="#7167FF" data-project-link=""
+                    data-route="/work/css-gallery/" data-title="CSS Gallery" href="../../work/css-gallery/index.html"
+                    style="--next-accent:#7167FF">
+                    <span>NEXT RECORD</span><strong>CSS Gallery</strong><i>↗</i>
+                </a>
+            </div>
+        </section>
+    </main>
+    <div data-site-footer=""></div>
+    <script src="../../assets/js/site.js"></script>
+    <script src="../../assets/js/ui.js"></script>
+    <script src="../../assets/js/motion.js"></script>
 </body>
+
 </html>

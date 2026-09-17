@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Start a project conversation with Marvellous O." name="description"/>
-<meta content="#0B0E13" name="theme-color"/>
-<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/>
-<title>Contact — Marvellous O. Build Record</title>
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('mo-build-theme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
-<link href="../assets/css/styles.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="Start a project conversation with Marvellous O." name="description" />
+    <meta content="#0B0E13" name="theme-color" />
+    <link href="../assets/favicon.svg" rel="icon" type="image/svg+xml" />
+    <title>Contact — Marvellous O. Build Record</title>
+    <script>try { document.documentElement.dataset.theme = localStorage.getItem('mo-build-theme') || 'dark' } catch (e) { document.documentElement.dataset.theme = 'dark' }</script>
+    <link href="../assets/css/styles.css" rel="stylesheet" />
 </head>
+
 <body class="contact-page" data-active="contact" data-root="../">
-<a class="sr-only" href="#main">Skip to content</a>
-<div data-site-header=""></div>
-<main class="page-main" id="main">
-<section class="contact-layout">
-<div class="contact-intro">
-<div><div class="kicker">Project intake / start a build</div><h1>START<br/>A <em>BUILD.</em></h1></div>
-<div><p>Describe what you are trying to build and the email action will open a prepared message addressed directly to Marvellous.</p><a class="text-link" href="mailto:omoleyemarvellous@gmail.com">omoleyemarvellous@gmail.com <i>↗</i></a></div>
-</div>
-<form class="project-form" data-contact-form="" novalidate="">
-<div class="field"><label for="contact-name">NAME *</label><input autocomplete="name" id="contact-name" name="name" placeholder="Your name" required=""/></div>
-<div class="field"><label for="contact-email">EMAIL *</label><input autocomplete="email" id="contact-email" name="email" placeholder="you@example.com" required="" type="email"/></div>
-<fieldset class="field fieldset"><legend>PROJECT TYPE *</legend><div class="choice-grid">
-<div class="choice"><input id="p-saas" name="project" required="" type="radio" value="SaaS product"/><label for="p-saas">SAAS</label></div>
-<div class="choice"><input id="p-web" name="project" type="radio" value="Web application"/><label for="p-web">WEB APP</label></div>
-<div class="choice"><input id="p-mobile" name="project" type="radio" value="Mobile product"/><label for="p-mobile">MOBILE</label></div>
-<div class="choice"><input id="p-api" name="project" type="radio" value="Backend / API"/><label for="p-api">BACKEND / API</label></div>
-<div class="choice"><input id="p-wp" name="project" type="radio" value="WordPress / PHP"/><label for="p-wp">WORDPRESS / PHP</label></div>
-<div class="choice"><input id="p-other" name="project" type="radio" value="Other"/><label for="p-other">OTHER</label></div>
-</div></fieldset>
-<fieldset class="field fieldset"><legend>BUDGET / RANGE</legend><div class="budget-grid">
-<div class="choice"><input checked="" id="b-private" name="budget" type="radio" value="Prefer not to say yet"/><label for="b-private">PREFER NOT TO SAY YET</label></div>
-<div class="choice"><input id="b-scope" name="budget" type="radio" value="Still defining scope"/><label for="b-scope">STILL DEFINING SCOPE</label></div>
-<div class="choice"><input id="b-range" name="budget" type="radio" value="Have a working range"/><label for="b-range">HAVE A WORKING RANGE</label></div>
-<div class="choice"><input id="b-help" name="budget" type="radio" value="Need help scoping first"/><label for="b-help">NEED HELP SCOPING FIRST</label></div>
-</div></fieldset>
-<div class="field"><label for="contact-context">PROJECT CONTEXT *</label><textarea id="contact-context" name="context" placeholder="What are you building, who is it for, and what needs to work?" required=""></textarea></div>
-<div class="form-end"><p aria-live="polite" class="form-status" data-form-status="">Submission opens your mail application with the full project record prepared. No hidden download step.</p><button class="button button--signal" type="submit">OPEN EMAIL <b>↗</b></button></div>
-</form>
-</section>
-</main>
-<div data-site-footer=""></div>
-<script src="../assets/js/site.js"></script>
-<script src="../assets/js/ui.js"></script>
-<script src="../assets/js/motion.js"></script>
-<script src="../assets/js/contact.js"></script>
+    <a class="sr-only" href="#main">Skip to content</a>
+    <div data-site-header=""></div>
+    <main class="page-main" id="main">
+        <section class="contact-layout">
+            <div class="contact-intro">
+                <div>
+                    <div class="kicker">Project intake / start a build</div>
+                    <h1>START<br />A <em>BUILD.</em></h1>
+                </div>
+                <div>
+                    <p>Describe what you are trying to build and the email action will open a prepared message addressed
+                        directly to Marvellous.</p><a class="text-link"
+                        href="mailto:omoleyemarvellous@gmail.com">omoleyemarvellous@gmail.com <i>↗</i></a>
+                </div>
+            </div>
+            <form class="project-form" data-contact-form="" novalidate="">
+                <div class="field"><label for="contact-name">NAME *</label><input autocomplete="name" id="contact-name"
+                        name="name" placeholder="Your name" required="" /></div>
+                <div class="field"><label for="contact-email">EMAIL *</label><input autocomplete="email"
+                        id="contact-email" name="email" placeholder="you@example.com" required="" type="email" /></div>
+                <fieldset class="field fieldset">
+                    <legend>PROJECT TYPE *</legend>
+                    <div class="choice-grid">
+                        <div class="choice"><input id="p-saas" name="project" required="" type="radio"
+                                value="SaaS product" /><label for="p-saas">SAAS</label></div>
+                        <div class="choice"><input id="p-web" name="project" type="radio"
+                                value="Web application" /><label for="p-web">WEB APP</label></div>
+                        <div class="choice"><input id="p-mobile" name="project" type="radio"
+                                value="Mobile product" /><label for="p-mobile">MOBILE</label></div>
+                        <div class="choice"><input id="p-api" name="project" type="radio" value="Backend / API" /><label
+                                for="p-api">BACKEND / API</label></div>
+                        <div class="choice"><input id="p-wp" name="project" type="radio"
+                                value="WordPress / PHP" /><label for="p-wp">WORDPRESS / PHP</label></div>
+                        <div class="choice"><input id="p-other" name="project" type="radio" value="Other" /><label
+                                for="p-other">OTHER</label></div>
+                    </div>
+                </fieldset>
+                <fieldset class="field fieldset">
+                    <legend>BUDGET / RANGE</legend>
+                    <div class="budget-grid">
+                        <div class="choice"><input checked="" id="b-private" name="budget" type="radio"
+                                value="Prefer not to say yet" /><label for="b-private">PREFER NOT TO SAY YET</label>
+                        </div>
+                        <div class="choice"><input id="b-scope" name="budget" type="radio"
+                                value="Still defining scope" /><label for="b-scope">STILL DEFINING SCOPE</label></div>
+                        <div class="choice"><input id="b-range" name="budget" type="radio"
+                                value="Have a working range" /><label for="b-range">HAVE A WORKING RANGE</label></div>
+                        <div class="choice"><input id="b-help" name="budget" type="radio"
+                                value="Need help scoping first" /><label for="b-help">NEED HELP SCOPING FIRST</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="field"><label for="contact-context">PROJECT CONTEXT *</label><textarea id="contact-context"
+                        name="context" placeholder="What are you building, who is it for, and what needs to work?"
+                        required=""></textarea></div>
+                <div class="form-end">
+                    <p aria-live="polite" class="form-status" data-form-status="">Submission opens your mail application
+                        with the full project record prepared. No hidden download step.</p><button
+                        class="button button--signal" type="submit">OPEN EMAIL <b>↗</b></button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <div data-site-footer=""></div>
+    <script src="../assets/js/site.js"></script>
+    <script src="../assets/js/ui.js"></script>
+    <script src="../assets/js/motion.js"></script>
+    <script src="../assets/js/contact.js"></script>
 </body>
+
 </html>
